@@ -35,6 +35,9 @@
             "migrations/.gitignore"
         ]
     },
+    "mak/css-module-bundle": {
+        "version": "v0.1.2"
+    },
     "phpunit/phpunit": {
         "version": "12.4",
         "recipe": {

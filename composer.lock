@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c54c01907cfe76790507b2a6a9d9c031",
+    "content-hash": "1c0164c68f2a6ede69b4146192945f1f",
     "packages": [
         {
             "name": "composer/semver",
@@ -1258,6 +1258,64 @@
                 }
             ],
             "time": "2025-03-06T22:45:56+00:00"
+        },
+        {
+            "name": "mak/css-module-bundle",
+            "version": "v0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mkrauser/css-module-bundle.git",
+                "reference": "eac817454cb3bcfa06c72a87e011e59dd4948f8c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mkrauser/css-module-bundle/zipball/eac817454cb3bcfa06c72a87e011e59dd4948f8c",
+                "reference": "eac817454cb3bcfa06c72a87e011e59dd4948f8c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2",
+                "symfony/config": "^6.4|^7.0",
+                "symfony/framework-bundle": "^6.4|^7.0",
+                "symfony/twig-bundle": "^6.4|^7.0",
+                "twig/twig": "^3.12"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^2.1",
+                "phpunit/phpunit": "^12.2@dev",
+                "rector/rector": "^2.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Mak\\CssModuleBundle\\": "."
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthias Krauser",
+                    "email": "matthias@krauser.eu"
+                }
+            ],
+            "description": "A Symfony bundle to use css-modules with twig and webpack encore",
+            "homepage": "https://twig.symfony.com",
+            "keywords": [
+                "bundle",
+                "css-modules",
+                "twig"
+            ],
+            "support": {
+                "issues": "https://github.com/mkrauser/css-module-bundle/issues",
+                "source": "https://github.com/mkrauser/css-module-bundle/tree/v0.1.2"
+            },
+            "time": "2025-11-26T12:15:38+00:00"
         },
         {
             "name": "monolog/monolog",
