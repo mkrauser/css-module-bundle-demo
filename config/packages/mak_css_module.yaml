@@ -1,0 +1,4 @@
+mak_css_module:
+    localIdentName: '_[hash:base64]'
+    localIdentContext: '%kernel.project_dir%'
+    localIdentHashSalt: null

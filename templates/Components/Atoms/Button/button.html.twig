@@ -1,0 +1,7 @@
+{% importModule "./button.module.scss" %}
+
+<button class="{{ scope("superButton") }}"
+        {{ stimulus_controller("Components/Atoms/Button/button") }}
+        {{ stimulus_action("Components/Atoms/Button/button", "onClick") }}>
+    This is the default text
+</button>
